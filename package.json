@@ -1,0 +1,24 @@
+{
+  "name": "food-delivery-demand-predictor",
+  "version": "1.0.0",
+  "description": "Machine learning-powered food delivery demand prediction app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Build completed'",
+    "install-python-deps": "pip install -r requirements.txt"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["machine-learning", "food-delivery", "prediction", "streamlit"],
+  "author": "Food Delivery Team",
+  "license": "MIT"
+}
