@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "install-python-deps": "python3 -m ensurepip --default-pip && python3 -m pip install -r requirements.txt",
-    "install-python-deps": "python3 -m pip install -r requirements.txt"
+    "install-python-deps": "python3 -m ensurepip --default-pip && python3 -m pip install -r requirements.txt"
   },
   "dependencies": {
     "express": "^4.18.2",
