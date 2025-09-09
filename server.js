@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
 function startStreamlit() {
   console.log('Starting Streamlit application...');
   
-  const streamlitProcess = spawn('python', ['-m', 'streamlit', 'run', 'streamlit_app.py', '--server.port', PORT, '--server.address', '0.0.0.0', '--server.headless', 'true'], {
+  const streamlitProcess = spawn('python3', ['-m', 'streamlit', 'run', 'streamlit_app.py', '--server.port', PORT, '--server.address', '0.0.0.0', '--server.headless', 'true'], {
     stdio: 'inherit',
     cwd: __dirname
   });
